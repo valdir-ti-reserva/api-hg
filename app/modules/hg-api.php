@@ -33,7 +33,7 @@ class hg_api{
     }
 
     function is_error(){
-        return $this->error();
+        return $this->error;
     }
 
     function dolar_quotation(){

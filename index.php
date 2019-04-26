@@ -6,13 +6,11 @@ require_once 'app/modules/hg-api.php';
 $hg    = new hg_api(HG_API_KEY);
 $dolar = $hg->dolar_quotation();
 
-var_dump($hg->is_error());
-
 ?>
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Cotação Dólar</title>
+    <title>APIS em Geral</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
